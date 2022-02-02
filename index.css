@@ -1,0 +1,60 @@
+body {
+    font-family: "American Typewrite";
+    background-color: black;
+}
+
+.globalBox {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-size: 1.4vw;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container button {
+    color: #FFF323;
+    background-color: black;
+    border: 1px solid #FFF323;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.container button:hover {
+    color: #000000;
+    background-color: #FFF323;
+    border: 1px solid #000000;
+}
+
+.container a {
+    text-decoration-line: none;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.col-sm {
+    margin: 15% 3% 0% 3%;
+}
+
+#titre_realisation {
+    padding-top: 4%;
+}
+
+
+
+
+
