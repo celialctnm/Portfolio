@@ -1,52 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
     font-family: "American Typewrite";
-    color: white;
-    background-color: black;
+    color: black;
 }
+
+/*
+bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
+ */
 
 @media only screen {
     /*
     Accueil
      */
     .globalBox {
-        background-color: #000000;
         height: 100vh;
     }
 
     #block {
         text-align: right;
-        color: white;
     }
 
     #barre_nav {
         margin-right: 1%;
         font-size: 1.8vw;
         display: inline-block;
+        color: white;
     }
 
     #barre_nav a{
-        color: white;
         text-decoration-line: none;
     }
 
     #barre_nav a:hover{
-        color: black;
-        background-color: #FFF323;
+        color: #551c9b;
     }
 
     #titre h1 {
-        color: white;
         font-weight: lighter;
         font-size: 2.6vw;
         margin-left: 1%;
     }
 
     #titre h3 {
-        color: #FFF323;
         font-weight: lighter;
         font-size: 2vw;
         margin-left: 3%;
@@ -63,23 +57,25 @@ body {
         font-size: 1.4vw;
     }
 
-    .globalBox button {
-        color: #FFF323;
-        background-color: black;
-        border: 1px solid #FFF323;
-        border-radius: 8px;
+    #paragraphe_presentation h3 {
+        font-size: 2vw;;
+    }
+
+    .globalBox button  {
+        border-radius: 10px;
         margin-top: 5%;
         margin-right: auto;
         margin-left: auto;
         display: block;
         font-size: 1.4vw;
         text-align: center;
+        color: white;
+        border: 2px solid white;
     }
 
     .globalBox button:hover {
-        color: #000000;
-        background-color: #FFF323;
-        border: 1px solid #000000;
+        color: #551c9b;
+        border: #551c9b 2px solid;
     }
 
 
@@ -92,9 +88,6 @@ body {
     }
 
     .container button {
-        color: #FFF323;
-        background-color: black;
-        border: 1px solid #FFF323;
         border-radius: 8px;
         margin-top: 5%;
         margin-right: auto;
@@ -102,12 +95,13 @@ body {
         display: block;
         font-size: 1.4vw;
         text-align: center;
+        color: white;
+        border: 0;
     }
 
     .container button:hover {
-        color: #000000;
-        background-color: #FFF323;
-        border: 1px solid #000000;
+        border: 0;
+        color: white;
     }
 
     .container a {
@@ -116,6 +110,10 @@ body {
 
     .container h3 {
         text-align: center;
+        font-size: 2vw;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 5%;
     }
 
     .container p {
@@ -138,6 +136,23 @@ body {
     #globalCompetence {
         padding-top: 3%;
         height: 100vh;
+        background-color: white;
+    }
+
+    #globalCompetence h3 {
+        font-size: 2vw;
+        font-weight: bold;
+        color: black;
+    }
+
+    .titres_competence {
+        padding-left: 2%;
+    }
+
+    #globalCompetence h4 {
+        font-size: 1.6vw;
+        font-weight: bold;
+        color: #551c9b;
     }
 
     #box_competence_t {
@@ -147,36 +162,6 @@ body {
         font-size: 1.4vw;
     }
 
-
-    #web {
-        background-color: #000000;
-        width: 33%;
-        margin-left: 0.5%;
-        padding: 3%;
-    }
-
-
-    #bdd {
-        background-color: #000000;
-        width: 33%;
-        padding: 3%;
-    }
-
-
-    #systeme {
-        background-color: black;
-        width: 33%;
-        padding: 3%;
-    }
-
-    #outils {
-        background-color: black;
-        width: 33%;
-        padding: 3%;
-
-    }
-
-
     #box_competence_t li {
         display: inline-block;
         padding: 0 1em;
@@ -184,8 +169,50 @@ body {
         height: 36px;
         line-height: 36px;
         border-radius: 18px;
-        color: black;
-        background: #FFF323;
+        color: white;
+    }
+
+
+    #web {
+        width: 33%;
+        margin-left: 0.5%;
+        padding: 3%;
+    }
+
+    #web h4 {
+        color: rgb(168 85 247);
+    }
+
+    #web li {
+        background-color: rgb(192 132 252);
+    }
+
+
+    #systeme {
+        width: 33%;
+        padding: 3%;
+    }
+
+    #systeme h4 {
+        color: rgb(217 70 239);
+    }
+
+    #systeme li {
+        background-color: rgb(232 121 249);
+    }
+
+    #outils {
+        width: 33%;
+        padding: 3%;
+
+    }
+
+    #outils h4 {
+        color: rgb(236 72 153);
+    }
+
+    #outils li {
+        background-color: rgb(244 114 182);
     }
 
     #box_competence_s {
@@ -201,9 +228,28 @@ body {
         width: 50%;
     }
 
+    #langues h4 {
+        color: rgb(249 115 22);
+    }
+
+    #langues li {
+        background-color: rgb(251 146 60);
+    }
+
     #qualites {
         width: 50%;
     }
+
+    #qualites h4 {
+        color: rgb(251 191 36);
+    }
+
+    #qualites li {
+        background-color: rgb(252 211 77);
+
+    }
+
+
 
     #box_competence_s li {
         display: inline-block;
@@ -212,8 +258,7 @@ body {
         height: 36px;
         line-height: 36px;
         border-radius: 18px;
-        color: black;
-        background: #FFF323;
+        color: white;
     }
 
 
@@ -231,10 +276,12 @@ body {
         padding-top: 3%;
         height: 10vh;
         text-align: center;
+        font-size: 2vw;
+        font-weight: bold;
+        color: black;
     }
 
     #exp {
-        background-color: #000000;
         height: 70vh;
         width: 100%;
         color: white;;
@@ -242,28 +289,26 @@ body {
     }
 
     #contact {
-        height: 20vh;
+        height: 27vh;
         width: 100%;
-        background-color: #FFF323;
-        color: black;
+        flex-direction: row;
+        color: white;
     }
 
     #contact a {
-        color: black;
         text-decoration-line: none;
+        width: 10%;
     }
 
     #contact a:hover {
         text-decoration-line: underline;
-    }
+        color: black;
 
-    #email {
-        padding-top: 1%;
-        margin-left: 1%;
     }
 
     .logo {
         padding-top: 1%;
+        padding-left: 1%;
     }
 
     #txtGauche{
@@ -273,12 +318,16 @@ body {
 
     #txtGauche h3 {
         text-align: right;
+        font-size: 1.8vw;
+        font-weight: bold;
+        color: black;
     }
 
     #txtGauche p {
         text-align: right;
-        margin-top: -10px;
-        color: #FFF323;
+        margin-top: -5px;
+        color: rgb(236 72 153);
+        font-size: 1.4vw;
     }
 
     #txtDroite{
@@ -287,12 +336,17 @@ body {
 
     #txtDroite h3 {
         text-align: left;
+        font-size: 1.8vw;
+        color: black;
+        font-weight: bold;
     }
 
     #txtDroite p {
         text-align: left;
-        margin-top: -10px;
-        color: #FFF323;
+        margin-top: -5px;
+        color: rgb(236 72 153);
+        font-size: 1.4vw;
+
     }
 
     #box1 {
@@ -308,7 +362,7 @@ body {
     }
 
     #sep{
-        background-color: #FFF323;
+        background-color: black;
         width: 1px;
         height: 80%;
         margin-top: 3%;
