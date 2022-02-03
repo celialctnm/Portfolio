@@ -4,8 +4,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://cdn.tailwindcss.com"></script>
-
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="home.css" rel="stylesheet">
@@ -30,7 +34,7 @@
     <h1> Célia Leichtnam</h1>
     <h3> Étudiante en informatique </h3>
   </div>
-  <div id="paragraphe_presentation">
+  <div id="paragraphe_presentation" class="animate__animated animate__fadeInUp">
     <h3> À propos</h3>
     <p>
       Actuellement en deuxième année de DUT informatique à l'IUT de Belfort-Montbéliard, en France, je réalise mon semestre 4 au CÉGEP de Matane, au Canada. Passionnée de réalité virtuelle et de robotique, j'aimerais poursuivre mes études dans ces domaines.
@@ -38,9 +42,8 @@
     <p>
       En ce qui concerne mes loisirs, je joue du piano depuis de nombreuses années et je pratique également de l'escalade. Ce sont deux passions qui me permettent de me dépasser et qui demandent sans cesse de s'améliorer, d'innover, tout comme l'informatique.
     </p>
+    <button class="mr-4 py-2 px-4 text-sm font-semibold animate__animated"><a download=""> </a> Découvrir mon CV </button>
   </div>
-  <button class="mr-4 py-2 px-4
-      text-sm font-semibold"><a download=""> </a> Découvrir mon CV </button>
 </div>
 
 
@@ -80,7 +83,7 @@
     <div id="box_competence_t">
       <div id="systeme">
         <h4> Développement système </h4>
-        <ul>
+        <ul data-aos="fade-up" data-aos-duration="1000">
           <li> Java </li>
           <li> Python </li>
           <li> C# </li>
@@ -89,7 +92,7 @@
       </div>
       <div id="web">
         <h4> Développement web et base de données </h4>
-        <ul>
+        <ul data-aos="fade-up" data-aos-duration="1000">
           <li> JavaScript </li>
           <li> NodeJS </li>
           <li> VueJS </li>
@@ -108,7 +111,7 @@
       </div>
       <div id="outils">
         <h4> Outils et méthodologies </h4>
-        <ul>
+        <ul data-aos="fade-up" data-aos-duration="1000">
           <li> Méthode agile </li>
           <li> Trello </li>
           <li> GitHub </li>
@@ -122,7 +125,7 @@
     <div id="box_competence_s">
       <div id="langues">
         <h4> Langues </h4>
-        <ul>
+        <ul data-aos="fade-up" data-aos-duration="1000">
           <li> Français </li>
           <li> Anglais B1 </li>
           <li> Allemand A2 </li>
@@ -130,7 +133,7 @@
       </div>
       <div id="qualites">
         <h4> Qualités </h4>
-        <ul>
+        <ul data-aos="fade-up" data-aos-duration="1000">
           <li> Rigoureuse </li>
           <li> Sérieuse </li>
           <li> Compréhensive </li>
@@ -148,7 +151,7 @@
   <h3 id="titre_cat"> Formation </h3>
   <div id="exp">
     <div id="txtGauche">
-      <div id="box1">
+      <div id="box1" data-aos="fade-left">
         <p> 2020-2022 </p>
         <h3>DUT informatique, IUT de Belfort, France </h3>
         <p> Algorithmie, développement web, réseaux</p>
@@ -157,12 +160,12 @@
     <div id="sep">
     </div>
     <div id="txtDroite">
-      <div id="box2">
+      <div id="box2" data-aos="fade-right">
         <p> Janvier 2022 - Juin 2022</p>
         <h3>Semestre 4, CÉGEP de Matane, Canada </h3>
         <p> Réalité virtuelle, sécurité informatique, infonuagique</p>
       </div>
-      <div id="box3">
+      <div id="box3" data-aos="fade-right">
         <p> 2020</p>
         <h3>Baccalauréat scientifique, Lycée Armand Peugeot, France </h3>
       </div>
@@ -195,7 +198,10 @@
 </div>
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,8 +1,23 @@
 body {
-    background-color: black;
     color: white;
 }
 
-h1 {
+#title {
+    font-size: 2vw;
     text-align: center;
+}
+
+#paragraphe {
+    padding: 5%;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+a {
+    font-size: 1.4vw;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: black;
 }
