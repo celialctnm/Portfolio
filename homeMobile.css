@@ -1,0 +1,370 @@
+@media (max-width: 480px) {
+    /*
+   Accueil
+    */
+    .globalBox {
+        height: 100%;
+        width: 100%;
+    }
+
+    #block {
+        text-align: right;
+    }
+
+    #barre_nav {
+        font-size: 20px;
+        display: inline-block;
+        color: white;
+    }
+
+    #barre_nav a{
+        text-decoration-line: none;
+    }
+
+    #barre_nav a:hover{
+        color: #551c9b;
+    }
+
+    #titre h1 {
+        font-weight: lighter;
+        font-size: 34px;
+        margin-left: 1%;
+    }
+
+    #titre h3 {
+        font-weight: lighter;
+        font-size: 28px;
+        margin-left: 3%;
+    }
+
+    #paragraphe_presentation {
+        color: white;
+        text-align: justify;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 13%;
+        font-size: 20px;
+    }
+
+    #paragraphe_presentation h3 {
+        font-size: 28px;;
+    }
+
+    .globalBox button  {
+        border-radius: 10px;
+        margin: 5% auto 10px;
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .globalBox button:hover {
+        color: #551c9b;
+        border: #551c9b 2px solid;
+    }
+
+    #CV {
+        display: flex;
+        margin: 10px auto 0;
+    }
+
+    #CV a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    /*
+    Page réalisations
+     */
+    .container {
+        height: 100%;
+    }
+
+    .container button {
+        border-radius: 8px;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        border: 0;
+    }
+
+    .container button:hover {
+        border: 0;
+        color: white;
+    }
+
+    .container a {
+        text-decoration-line: none;
+    }
+
+    .container h3 {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+
+    .container p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .col-sm {
+        margin: 5% 0 0 0;
+    }
+
+    #titre_realisation {
+        padding-top: 4%;
+    }
+
+    /*
+    Page compétences
+     */
+
+    #globalCompetence {
+        padding-top: 3%;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: block;
+    }
+
+    #globalCompetence h3 {
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .titres_competence {
+        padding-left: 2%;
+    }
+
+    #globalCompetence h4 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #551c9b;
+    }
+
+    #box_competence_t {
+        width: 100%;
+        height: 50%;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    #box_competence_t li {
+        display: inline-block;
+        padding: 0 1em;
+        margin: 5px;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 18px;
+        color: white;
+    }
+
+
+    #web {
+        width: 100%;
+        margin-left: 0.5%;
+        padding: 3%;
+    }
+
+    #web h4 {
+        color: rgb(168 85 247);
+    }
+
+    #web li {
+        background-color: rgb(192 132 252);
+    }
+
+
+    #systeme {
+        width: 100%;
+        padding: 3%;
+    }
+
+    #systeme h4 {
+        color: rgb(217 70 239);
+    }
+
+    #systeme li {
+        background-color: rgb(232 121 249);
+    }
+
+    #outils {
+        width: 100%;
+        padding: 3%;
+
+    }
+
+    #outils h4 {
+        color: rgb(236 72 153);
+    }
+
+    #outils li {
+        background-color: rgb(244 114 182);
+    }
+
+    #box_competence_s {
+        width: 100%;
+        height: 50%;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    #langues {
+        width: 100%;
+    }
+
+    #langues h4 {
+        color: #808dff;
+    }
+
+    #langues li {
+        background-color: #808dff;
+    }
+
+    #qualites {
+        width: 100%;
+    }
+
+    #qualites h4 {
+        color: #30c0e0;
+    }
+
+    #qualites li {
+        background-color: #30c0e0;
+
+    }
+
+
+
+    #box_competence_s li {
+        display: inline-block;
+        padding: 0 1em;
+        margin: 5px;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 18px;
+        color: white;
+    }
+
+
+
+    /*
+    Page formation + contact
+     */
+
+    .boxFormation {
+        height: 100%;
+
+    }
+
+    #titre_cat {
+        padding-top: 3%;
+        height: 10vh;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #exp {
+        height: 70vh;
+        width: 100%;
+        color: white;;
+        display: flex;
+    }
+
+    #contact {
+        display: block;
+        width: 100%;
+        flex-direction: row;
+        color: white;
+    }
+
+    #contact a {
+        text-decoration-line: none;
+        width: 10%;
+    }
+
+    #contact a:hover {
+        text-decoration-line: underline;
+        color: black;
+
+    }
+
+    .logo {
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+
+    #txtGauche{
+        width: 50vw;
+    }
+
+
+    #txtGauche h3 {
+        text-align: right;
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #txtGauche p {
+        text-align: right;
+        margin-top: -5px;
+        color: rgb(236 72 153);
+        font-size: 20px;
+    }
+
+    #txtDroite{
+        width: 50vw;
+    }
+
+    #txtDroite h3 {
+        text-align: left;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #txtDroite p {
+        text-align: left;
+        margin-top: -5px;
+        color: rgb(251 146 60);
+        font-size: 20px;
+
+    }
+
+    #box1 {
+        margin-top: 33%;
+    }
+
+    #box2 {
+        margin-top: 10%;
+    }
+
+    #box3 {
+        margin-top: 32%;
+    }
+
+    #sep{
+        background-color: black;
+        width: 1px;
+        height: 80%;
+        margin-top: 3%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
