@@ -21,7 +21,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
 
     #barre_nav {
         margin-right: 1%;
-        font-size: 1.8vw;
+        font-size: 26px;
         display: inline-block;
         color: white;
     }
@@ -36,15 +36,14 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
 
     #titre h1 {
         font-weight: lighter;
-        font-size: 2.6vw;
+        font-size: 34px;
         margin-left: 1%;
     }
 
     #titre h3 {
         font-weight: lighter;
-        font-size: 2vw;
+        font-size: 28px;
         margin-left: 3%;
-        margin-top: -0.5%;
     }
 
     #paragraphe_presentation {
@@ -54,11 +53,11 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         margin-right: auto;
         margin-left: auto;
         margin-top: 13%;
-        font-size: 1.4vw;
+        font-size: 20px;
     }
 
     #paragraphe_presentation h3 {
-        font-size: 2vw;;
+        font-size: 28px;;
     }
 
     .globalBox button  {
@@ -67,7 +66,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         margin-right: auto;
         margin-left: auto;
         display: block;
-        font-size: 1.4vw;
+        font-size: 20px;
         text-align: center;
         color: white;
         border: 2px solid white;
@@ -76,6 +75,16 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     .globalBox button:hover {
         color: #551c9b;
         border: #551c9b 2px solid;
+    }
+
+    #CV {
+        display: flex;
+        margin: 10px auto 0;
+    }
+
+    #CV a {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
@@ -93,7 +102,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         margin-right: auto;
         margin-left: auto;
         display: block;
-        font-size: 1.4vw;
+        font-size: 20px;
         text-align: center;
         color: white;
         border: 0;
@@ -110,14 +119,14 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
 
     .container h3 {
         text-align: center;
-        font-size: 2vw;
+        font-size: 28px;
         color: black;
         font-weight: bold;
         margin-bottom: 5%;
     }
 
     .container p {
-        font-size: 1.4vw;
+        font-size: 20px;
         text-align: justify;
     }
 
@@ -137,10 +146,11 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         padding-top: 3%;
         height: 100vh;
         background-color: white;
+        display: block;
     }
 
     #globalCompetence h3 {
-        font-size: 2vw;
+        font-size: 28px;
         font-weight: bold;
         color: black;
     }
@@ -150,7 +160,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     }
 
     #globalCompetence h4 {
-        font-size: 1.6vw;
+        font-size: 24px;
         font-weight: bold;
         color: #551c9b;
     }
@@ -159,7 +169,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         display: flex;
         width: 100%;
         height: 50%;
-        font-size: 1.4vw;
+        font-size: 20px;
     }
 
     #box_competence_t li {
@@ -218,7 +228,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     #box_competence_s {
         display: flex;
         width: 70%;
-        font-size: 1.4vw;
+        font-size: 20px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 4%;
@@ -229,11 +239,11 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     }
 
     #langues h4 {
-        color: rgb(249 115 22);
+        color: #808dff;
     }
 
     #langues li {
-        background-color: rgb(251 146 60);
+        background-color: #808dff;
     }
 
     #qualites {
@@ -241,11 +251,11 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     }
 
     #qualites h4 {
-        color: rgb(251 191 36);
+        color: #30c0e0;
     }
 
     #qualites li {
-        background-color: rgb(252 211 77);
+        background-color: #30c0e0;
 
     }
 
@@ -276,7 +286,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         padding-top: 3%;
         height: 10vh;
         text-align: center;
-        font-size: 2vw;
+        font-size: 28px;
         font-weight: bold;
         color: black;
     }
@@ -289,7 +299,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     }
 
     #contact {
-        height: 27vh;
+        display: block;
         width: 100%;
         flex-direction: row;
         color: white;
@@ -318,7 +328,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
 
     #txtGauche h3 {
         text-align: right;
-        font-size: 1.8vw;
+        font-size: 24px;
         font-weight: bold;
         color: black;
     }
@@ -327,7 +337,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         text-align: right;
         margin-top: -5px;
         color: rgb(236 72 153);
-        font-size: 1.4vw;
+        font-size: 20px;
     }
 
     #txtDroite{
@@ -336,7 +346,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
 
     #txtDroite h3 {
         text-align: left;
-        font-size: 1.8vw;
+        font-size: 24px;
         color: black;
         font-weight: bold;
     }
@@ -345,7 +355,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         text-align: left;
         margin-top: -5px;
         color: rgb(251 146 60);
-        font-size: 1.4vw;
+        font-size: 20px;
 
     }
 
@@ -358,7 +368,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     }
 
     #box3 {
-        margin-top: 39%;
+        margin-top: 32%;
     }
 
     #sep{
