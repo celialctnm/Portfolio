@@ -77,6 +77,19 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         border: #551c9b 2px solid;
     }
 
+    /*
+    #arrow {
+        animation: example 5s infinite;
+        color: #551c9b;
+    }
+
+    @keyframes example {
+        from {color: red;}
+        to {color: yellow;}
+    }
+
+     */
+
     #CV {
         display: flex;
         margin: 10px auto 0;
@@ -95,6 +108,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
     .container {
         height: 100vh;
     }
+
 
     .container button {
         border-radius: 8px;
@@ -125,13 +139,15 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         margin-bottom: 5%;
     }
 
+
+
     .container p {
         font-size: 20px;
         text-align: justify;
     }
 
     .col-sm {
-        margin: 5% 3% 0% 3%;
+        margin: 0% 3% 0% 3%;
     }
 
     #titre_realisation {
@@ -143,7 +159,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
      */
 
     #globalCompetence {
-        padding-top: 3%;
+        margin-top: 100px;
         height: 100vh;
         background-color: white;
         display: block;
@@ -303,6 +319,7 @@ bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300
         width: 100%;
         flex-direction: row;
         color: white;
+        height: 20%;
     }
 
     #contact a {

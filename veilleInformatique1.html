@@ -7,19 +7,89 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="maintenance.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300">
+<div id="retourAccueil">
+    <a href="index.html"> <- Retour à l'accueil</a>
+</div>
 
-<a href="index.html"> <- Retour à l'accueil</a>
-<div id="title">
-    <h1> Maintenance projet 1 </h1>
+<div style="background-color: white">
+    <div id="title">
+        <h1> Memory </h1>
+    </div>
+    <div id="paragraphe">
+        <h4><b>But du jeu</b></h4>
+        <p> Le jeu du memory consiste à trouver toutes les paires d'images contenues sur une grille le plus rapidement possible.</p>
+        <br>
+        <h4><b> Contenu </b></h4>
+        <p> Ce jeu est composé d'une grille de 16 images ainsi que d'un chrono. Un menu permet d'afficher un tableau des scores correspondant aux 3 meilleurs temps ainsi que d'un onglet pour recommencer une partie. </p>
+        <br>
+        <h4><b> Méthode et langages </b></h4>
+        <p> Architecture MVC - Java et Java Swing</p>
+        <br>
+        <h4><b> Images</b></h4>
+        <div style="display: flex; margin-top: 1%">
+            <img class="img-fluid" style="width: 30%" src="img/accueilMemory.png">
+            <div style="width: 5%"></div>
+            <img class="img-fluid" style="width: 30%" src="img/jeuMemory.png">
+            <div style="width: 5%"></div>
+            <img class="img-fluid" style="width: 30%" src="img/finjeu.png">
+        </div>
+        <br>
+        <h4><b> Accès dépot GitHub </b></h4>
+        <button class="transition ease-in-out delay-50 mr-4 py-2 px-4 text-sm font-semibold bg-gradient-to-r from-purple-500 to-pink-500 hover:-translate-y-1 hover:scale-105 duration-300" id="bouton"><a target="_blank" href="https://github.com/celialctnm/Memory-JavaSwing.git">Accéder</a></button>
+    </div>
+
+    <div id="maintenance_memory">
+        <div id="maintenance_description">
+            <h2> Maintenance </h2>
+            <h3> Description généraliste </h3>
+            <img id="img2" class="img-fluid image" src="img/grilleLynx.png">
+            <p>Ce projet a été réalisé au début de mes études d’informatique, je ne maitrisais pas encore toutes les techniques et je ne possédais pas toutes les compétences nécessaires afin de réaliser un code lisible et propre. J’ai donc voulu dans un premier temps notamment en remplaçant des interminables copier/coller de code par des boucles <i>for</i>. </p>
+            <br>
+            <p>Dans un deuxième temps, je voulais ajouter une fonctionnalité supplémentaire dans ce jeu. En effet, le jeu du memory est un jeu que j’affectionne particulièrement car il a été très présent dans mon enfance. Je voulais garder l’aspect initial de ce jeu, c’est à dire, travailler et entraîner sa mémoire, c’est pour cela que j’ai voulu revisiter un autre jeu, le <i>Lynx</i>, qui a pour but de retrouver le plus vite possible une image, piochée au préalable, dans un plateau composé d’environ 400 autres images. </p>
+            <br>
+            <p>Dans ma version, le joueur voit apparaître 3 images, une fois qu’il les a mémorisées, une grille d’images s’affiche et il doit retrouver les 3 images vues précédemment, le plus vite possible. </p>
+            <br>
+            <h3> Description gameplay </h3>
+            <p>Ce nouveau mode de jeu rejoint les principes initiaux du projet, c’est à dire, qu’il a été codé en suivant le modèle MVC et en Java et JavaSwing. Il présente une interface composée d'une grille de 25 JButton associés respectivement à leur propre image. A chaque nouvelle partie, les images sont mélangées et associées à un bouton. </p>
+            <br>
+            <p>Pour démarrer la partie ainsi que le chrono, il suffit de presser n’importe quel bouton sur la grille. Une fenêtre pop-up apparaît et permet au joueur de voir les 3 images à trouver. Ensuite, le joueur clique sur un des boutons de la grille. si l’image qui apparaît est une des 3 à trouver, le bouton se désactive, c’est à dire qu’il n’est plus possible de cliquer dessus. Une fois les 3 images trouvées, le chrono s’arrête et une nouvelle fenêtre pop-up s’affiche, signifiant au joueur qu’il a gagné. </p>
+            <div id="boxImg">
+                <div>
+                    <img class="img-fluid" src="img/debutJeuLynx.png">
+                </div>
+                <div style="width: 10%">
+                </div>
+                <div>
+                    <img id="" class="img-fluid" src="img/finJeuLynx.png">
+                </div>
+            </div>
+        </div>
+        <div id="veille_technologique">
+            <h2> Veille technologique </h2>
+            <h3> Choix technologiques </h3>
+            <p>Dans ce projet, j’ai choisi d’utiliser la bibliothèque JavaSwing, dévelopée par Oracle. En effet, Java étant un langage que je connaissais, que je maîtrisais le mieux et qui permettait le développement de logiciel, je voulais l’utiliser dans ce projet. Dans le cadre de mes études, j’utilisais principalement Java pour mettre en place des algorithmes; utiliser une interface graphique avec celui-ci était une nouveauté intéressante à explorer. </p>
+            <br>
+            <p>JavaSwing utilise le principe MVC ce qui correspondait à mes attentes. De plus, JavaSwing est assez simple à comprendre lorsqu’on débute; que ce soit au niveau de l’importation ou de l’utilisation de la bibliothèque. Il existe de nombreux exemples sur internet qui permettent d’apprendre les bases très rapidement.</p>
+            <br>
+            <h3> Alternatives possibles </h3>
+            <p>En ce qui concerne les alternatives possibles, il existe deux autres bibliothèques de gestion de fenêtre :  AWT et JavaFX. </p>
+            <br>
+            <p><b>AWT</b></p>
+            <p>AWT est une bibliothèque qui a été introduite dès les premières versions de Java. Toutefois, depuis Java 2 et jusqu’à Java8, c’est la bibliothèque Java Swing qui est devenue la bibliothèque de gestion de fenêtre officielle.</p>
+            <br>
+            <p> Les composants de Java AWT sont beaucoup plus lourds que ceux de Java Swing. De plus, les fonctionnalités de AWT sont moins nombreuses et possèdent un temps d'exécution plus long que celles de Swing. Enfin, le modèle MVC n'est pas pris en compte par AWT, ce qui n'est pas un bon point pour celui-ci car à l'heure actuelle, c'est le principe MVC qui est le plus utilisé et qui permet d'écrire un code plus lisible.</p>
+            <br>
+            <br>
+            <p><b>JavaFX</b></p>
+            <p>JavaFX est un framework et une bibliothèque d'interface utilisateur issue du projet OpenJFX. La bibliothèque JavaFX est devenue la bibliothèque de gestion de fenêtre officielle dès l’apparition de Java8. Je comptais utiliser cette bibliothèque dans un prochain projet qui demandait plus de ressources et qui avait une envergure plus grande; la programmation d’un jeu vidéo <i>Pacman</i>  avec la mise en place d’IA pour les fantômes et la génération d’un labyrinthe aléatoire. </p>
+            <br>
+            <p>En effet, JavaFX est assez compliqué à installer directement sur sa machine tandis qu’avec une ligne dans le code, l’importation est faite pour JavaSwing. Toutefois, JavaFX permet de réaliser des projets plus importants et possède une grande communauté. De plus, la bibliothèque JavaFX est régulièrement mise à jour et un logiciel, Scene Builder, a vu le jour afin de pouvoir créer des interfaces utilisateurs sans coder et qui permet par la suite, de proposer les fichiers FXML correspondant aux interfaces créées. </p>
+            <br>
+            <p>JavaFX est à l’heure actuelle très utilisé, mais sachant que j’allais l’utiliser dans le futur, je souhaitais également découvrir son prédécesseur, afin de pouvoir comprendre les améliorations qui ont été mise en place dans JavaFX et d’avoir déjà, un premier aperçu de la réalisation d’interface graphique avec JavaSwing. </p></div>
+    </div>
+
 </div>
-<div id="paragraphe">
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet accumsan turpis. Quisque vitae fermentum metus, ut egestas dolor. Aenean eu sem egestas, eleifend turpis a, consequat ex. Donec sit amet risus tempus, ullamcorper mi bibendum, rutrum nisl. Aenean pretium malesuada tempus. Sed cursus felis id pulvinar viverra. Duis eget dapibus turpis, quis ultricies est.</p>
-    <p> Nunc efficitur finibus ante egestas pellentesque. Nullam cursus nibh at nibh commodo sodales. Etiam vehicula arcu vitae posuere imperdiet. Aenean molestie cursus accumsan. Curabitur eleifend placerat rhoncus. Nunc vitae metus at magna semper aliquam. Vivamus vitae velit id arcu mattis pellentesque vitae sed nibh. Donec massa felis, cursus a varius sit amet, ullamcorper quis leo. Nunc egestas suscipit finibus. Duis sit amet lacinia nulla, ac accumsan massa. Donec fringilla lacus nec hendrerit tincidunt. Ut at orci tortor.</p>
-    <p> Aenean varius nunc non tellus dapibus dictum. In sed massa vel erat tristique condimentum at vitae urna. Aliquam lacinia hendrerit augue eu gravida. Donec tempor dui at arcu rhoncus, eget fringilla felis venenatis. Phasellus quis justo a massa finibus ultricies. Donec quis dui sem. Praesent vulputate metus ut leo pharetra, sit amet consectetur elit efficitur. Pellentesque est est, porttitor non leo quis, sollicitudin tristique ligula. Donec vitae massa vulputate, fermentum leo nec, dapibus nulla. Vestibulum pretium purus quis sapien dapibus tincidunt. Fusce congue scelerisque imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut euismod ante eget nisi elementum, non posuere ligula volutpat.</p>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet accumsan turpis. Quisque vitae fermentum metus, ut egestas dolor. Aenean eu sem egestas, eleifend turpis a, consequat ex. Donec sit amet risus tempus, ullamcorper mi bibendum, rutrum nisl. Aenean pretium malesuada tempus. Sed cursus felis id pulvinar viverra. Duis eget dapibus turpis, quis ultricies est.</p>
-    <p> Nunc efficitur finibus ante egestas pellentesque. Nullam cursus nibh at nibh commodo sodales. Etiam vehicula arcu vitae posuere imperdiet. Aenean molestie cursus accumsan. Curabitur eleifend placerat rhoncus. Nunc vitae metus at magna semper aliquam. Vivamus vitae velit id arcu mattis pellentesque vitae sed nibh. Donec massa felis, cursus a varius sit amet, ullamcorper quis leo. Nunc egestas suscipit finibus. Duis sit amet lacinia nulla, ac accumsan massa. Donec fringilla lacus nec hendrerit tincidunt. Ut at orci tortor.</p>
-    <p> Aenean varius nunc non tellus dapibus dictum. In sed massa vel erat tristique condimentum at vitae urna. Aliquam lacinia hendrerit augue eu gravida. Donec tempor dui at arcu rhoncus, eget fringilla felis venenatis. Phasellus quis justo a massa finibus ultricies. Donec quis dui sem. Praesent vulputate metus ut leo pharetra, sit amet consectetur elit efficitur. Pellentesque est est, porttitor non leo quis, sollicitudin tristique ligula. Donec vitae massa vulputate, fermentum leo nec, dapibus nulla. Vestibulum pretium purus quis sapien dapibus tincidunt. Fusce congue scelerisque imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut euismod ante eget nisi elementum, non posuere ligula volutpat.</p>
-</div>
+
 </body>
 </html>
